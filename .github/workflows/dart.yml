@@ -28,7 +28,7 @@ jobs:
         run: pwd
 
       - name: cd into the project directory
-        run: ./cd myproj 
+        run: cd ./myproj
 
       - name: Install dependencies
         run: dart pub get
